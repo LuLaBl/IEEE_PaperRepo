@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: A_wearable_fall-detection_system_based_on_BAN.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: references.bib
+Warning--I'm ignoring Antonicelli-ECG's extra "note" field
+--line 479 of file references.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty year in Gutierrez2017
+Warning--empty year in TesisGutierrez2017
+Warning--there's a month but no year in Igual2013
+Warning--empty journal in Luder2009
+Warning--empty year in Gjoreski2014
+Warning--empty year in Kozina
+Warning--empty year in Pannurat2014
+Warning--empty year in gutierrez2018
+Warning--there's a month but no year in jia2011
+Warning--empty year in jamsa2014fall
+Warning--empty year in LuigiMasterThesis
+Warning--empty year in Antonicelli-ECG
+Warning--empty booktitle in ECGNoise
+Warning--empty year in international2005medical
+Warning--empty year in STAMPThesis
+
+Done.
+You've used 25 entries,
+            4087 wiz_defined-function locations,
+            985 strings with 12910 characters,
+and the built_in function-call counts, 16183 in all, are:
+= -- 1312
+> -- 359
+< -- 103
++ -- 194
+- -- 73
+* -- 782
+:= -- 2547
+add.period$ -- 56
+call.type$ -- 25
+change.case$ -- 39
+chr.to.int$ -- 225
+cite$ -- 40
+duplicate$ -- 1203
+empty$ -- 1325
+format.name$ -- 83
+if$ -- 3709
+int.to.chr$ -- 0
+int.to.str$ -- 25
+missing$ -- 233
+newline$ -- 100
+num.names$ -- 27
+pop$ -- 548
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1233
+stack$ -- 0
+substring$ -- 605
+swap$ -- 912
+text.length$ -- 28
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 25
+warning$ -- 15
+while$ -- 66
+width$ -- 27
+write$ -- 256
+(There were 16 warnings)
