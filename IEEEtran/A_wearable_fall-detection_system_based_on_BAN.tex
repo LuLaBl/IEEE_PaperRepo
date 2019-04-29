@@ -407,10 +407,10 @@
 % journal papers have the author affiliations above the "Manuscript
 % received ..."  text while in non-compsoc journals this is reversed. Sigh.
 
-\author{Luigi La Blunda,~\IEEEmembership{Member,~IEEE,}
-        Lorena Guti\'errez-Madro\~nal,~\IEEEmembership{Fellow,~OSA,}
-        Matthias F. Wagner,~\IEEEmembership{Member,~IEEE,}
-        and~Inmaculada Medina-Bulo,~\IEEEmembership{Life~Fellow,~IEEE}% <-this % stops a space
+\author{Luigi La Blunda,
+        Lorena Guti\'errez-Madro\~nal,
+        Matthias F. Wagner,~\IEEEmembership{Member,~IEEE,}\\
+        and~Inmaculada Medina-Bulo~\IEEEmembership{Member,~IEEE}% <-this % stops a space
 \IEEEcompsocitemizethanks{\IEEEcompsocthanksitem L. La Blunda and M. F. Wagner are with the Department
 of Computer Science and Engineering, WSN \& IOT Research Group, Frankfurt University of Applied Sciences, 60318 Frankfurt am Main, Germany, E-mail: l.lablunda@fb2.fra-uas.de, mfwagner@fb2.fra-uas.de.%\protect\\
 % note need leading \protect in front of \\ to get a newline within \thanks as
@@ -551,7 +551,7 @@ The WHO stated that annually 37.3 million fall events are severe enough to requi
 To counteract these life-threatening events fast assistance is necessary due to the fact that an unconscious person may not be able to call the emergency services. An approach could be the continuous tracing of medical and / or physical parameters via a wearable sensor network (see Figure \ref{fig:escalationscheme}).
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[scale=0.2]{Images/EscalationScheme}
+	\includegraphics[scale=0.235]{Images/EscalationScheme.png}
 	\caption[Escalation scheme]{Escalation scheme simulation~\cite{LaBlunda.2016,LaBlunda.2016b}}
 	\label{fig:escalationscheme}
 \end{figure}
@@ -739,26 +739,26 @@ generates events depending on the logical and relational operations.
  A first prototype was described in \cite{LaBlunda.2016, LaBlunda.2016b}. This paper presents an improved version of the prototype in \cite{LaBlunda.2016, LaBlunda.2016b}, which includes essential developments that contribute to reliable operation of the system. Additionally, the improved hardware design meets the requirement for patient compliance. A more user friendly design facilitates the freedom of movement for the user. As a safety critical system for medical purposes, a redundant hardware design protects the system against a total system failure which would have severe consequences in case of fall events. Referring to J{\"a}ms{\"a} et al. \cite{jamsa2014fall} the best approach is to position the accelerometer near to the waist. Taking into consideration these aspects a wearable belt solution was developed which is based on a four sensor nodes BAN (see Figure \ref{fig:BanBelt}). The four sensor nodes (S1 - S4) positioned on the belt are acting as peripherals and are continuously acquiring acceleration data which is sent via Bluetooth Low Energy (BLE) to the smartphone (central device). 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[scale=0.25]{Images/belt}
+	\includegraphics[scale=0.27]{Images/belt.eps}
 	\caption[Four sensor nodes BAN - Belt]{Four sensor nodes BAN - Belt \cite{LaBlunda.2016, LaBlunda.2016b}}
 	\label{fig:BanBelt}
 \end{figure}
 
 The dataset consists of the following information: 
 \begin{center}
-	SensorID, $\alpha_{x}$, $\alpha_{y}$, $\alpha_{x}$ measured in m/$s^2$
+	SensorID, $\alpha_{x}$, $\alpha_{y}$, $\alpha_{z}$ measured in m/$s^2$
 \end{center}
 \begin{itemize}
 	\item \textbf{SensorID} $\rightarrow$ sensor node identification.
 	\item \boldmath{$\alpha_{x}$} $\rightarrow$ acceleration value in X-direction.
 	\item \boldmath{$\alpha_{y}$} $\rightarrow$ acceleration value in Y-direction.
-	\item \boldmath{$\alpha_{x}$} $\rightarrow$ acceleration value in Z-direction.
+	\item \boldmath{$\alpha_{z}$} $\rightarrow$ acceleration value in Z-direction.
 \end{itemize} 
 The central device receives the incoming sensor data which will be stored in separate data files to evaluate the event. 
 The belt solution reflects the above criteria of a safety critical systems. The proposed architecture (see Figure \ref{fig:BanBelt}) is based on a mirroring principle of the opposite sensor nodes which provide identical acceleration values, only with different signs. If a sensor node fails during operation, the opposite node can be used as a reference to ensure accurate evaluation of the event.  Considering the following scheme (see Figure \ref{fig:ReferenceScheme}) this fall detection belt solution facilitates the recognition of different fall event types. The positioning of the nodes around the hip allows a precise fall characterization.
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[scale=0.17]{Images/axis.png}
+	\includegraphics[scale=0.19]{Images/axis.eps}
 	\caption[Three axis reference scheme]{Three axis reference scheme \cite{LaBlunda.2016,LuigiMasterThesis}}
 	\label{fig:ReferenceScheme}
 \end{figure}
@@ -810,7 +810,7 @@ than a time window of 1 second, to meet the fall rule of~\cite{Luder2009} descri
 Figure~\ref{fig:FAWcomparison} confronts the normalized acceleration behavior during the previous FAW falls of person 1 and person 2. These comparisons show a similar behavior of the acceleration during the FAW fall.
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[scale=0.2]{Images/TwoFallsComparative.png}
+	\includegraphics[scale=0.21]{Images/TwoFallsComparative.eps}
 	\caption[Acceleration during FAW fall]{Acceleration comparison during FAW fall.}
 	\label{fig:FAWcomparison}
 \end{figure}
@@ -899,7 +899,7 @@ It is needed to highlight that to obtain these rules to define the behavior of t
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[scale=0.2]{Images/IoTTEGFAWGeneratedEvents}
+	\includegraphics[scale=0.22]{Images/IoTTEGFAWGeneratedEvents.eps}
 	\caption[IoT-TEG generated FAW falls]{IoT-TEG generated FAW falls.}
 	\label{fig:IoTTEGFAWGeneratedEvents}
 \end{figure}
@@ -909,8 +909,8 @@ It is needed to highlight that to obtain these rules to define the behavior of t
 Analyzing the literature regarding fall detection, the existing solutions show certain weaknesses in the reliable detection of falls \cite{Igual2013, Li2009, Luder2009, Pannurat2014, jamsa2014fall}. Considering the approach of Gjoreski et al. \cite{Gjoreski2014}, the results with the fusion of physical sensors and the ECG sensor increase reliability. Especially the evaluation of the ECG signal leads to an essential improvement of the system's accuracy.  According to \cite{Gjoreski2014} the ECG signal could be used to distinguish between different postures. The inclusion of medical parameters could even provide a fall prediction that would represent a significant progress in health care and prevent fatal injuries. Based on these results the proposed fall detection belt has been upgraded with a portable 3-channel ECG sensor. The successive illustration depicts the BAN structure of the update prototype architecture.
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[scale=0.17]{Images/ECG-BAN.png}
-	\caption[ECG - BAN]{ECG - BAN}
+	\includegraphics[scale=0.26]{Images/ECG-BAN.eps}
+	\caption[ECG BAN]{ECG BAN}
 	\label{fig:ECGBAN}
 \end{figure}
 
@@ -921,8 +921,8 @@ Before the ECG sensor can be fully integrated into the prototype, some tasks had
 The first test measurements with the ECG sensor confirmed the noisy and unstable ECG signal during movements. To ensure a stable and continuous signal during daily activities, an adjustable and flexible ECG harness has been developed with prefabricated electrodes positioning and the ability to adapt to any body shape (see Figure \ref{fig:ECGHarness}).
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[scale=0.2]{Images/ECG-Harness.png}
-	\caption[ECG - Harness]{ECG - Harness}
+	\includegraphics[scale=0.29]{Images/ECG-Harness.eps}
+	\caption[ECG - Harness]{ECG harness}
 	\label{fig:ECGHarness}
 \end{figure}
 
@@ -939,10 +939,11 @@ First of all, we are going to explain the problems related to the current protot
 A hardware issue is the durability of the battery, which is 2 to 3 weeks depending on the use. If we want to use this system in everyday life, we have to make sure that the battery life is extended. If we consider the used ECG sensor architecture, we encountered differences in signal quality that includes noise and baseline shifting (see Figure \ref{fig:ECGBaselineShifting}). 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[scale=0.21]{Images/NormalECG1.eps}
-	\caption[Measured ECG-signal]{Baseline shifting ECG-signal \cite{FatimaMasterThesis}}
+	\includegraphics[scale=0.245]{Images/NormalECG1.eps}
+	\caption[Measured ECG signal]{Baseline shifting ECG signal \cite{FatimaMasterThesis}}
 	\label{fig:ECGBaselineShifting}
 \end{figure}
+
 The reasons for these distinctions in signal quality were explained by the supervising physician. Baseline wander (BW) disturbances are caused by variations in electrode-skin impedance, patient's movement and breathing during the ECG measurements. Muscle contraction is common for people which suffer from tremor or fearing the ECG measurement and for disabled people. Certified clinical devices have an integrated filter which can be applied to smooth the signal \cite{ECGNoise,DrNicoletteWagner}. To solve this problem the application of a low and high pass filter in our setup is considered \cite{FatimaMasterThesis}.
 
 Regarding the analysis of the acceleration values, it was observed that some values could lead to misinterpretation. The reason was that the test persons quickly got up after the fall simulation instead of lying on the ground.
@@ -966,7 +967,6 @@ STAMP treats accidents as a control problem. To prevent accidents safety constra
 
 \subsection{STAMP - Hazard analysis}
 STAMP begins on the system level and proceeds top down into the system hierarchy. The hierarchical-based analysis in STAMP is based on control loop structures which are iterated from the high abstract level (overall system view) to the lower system levels to build up hierarchical system models \cite{leveson2011engineering}. 
-
 The controller unit of the control structure is acting as a master and includes a process model to determine control actions that are executed by the actuators to control the defined process (controlled process). A feedback loop (measured variables) is provided by the sensor unit which informs the controller about the process state. This information is used by the master to initiate a control action (controlled variables) to run the system within predefined limits. 
 
 STAMP procedures:
@@ -982,7 +982,7 @@ STAMP procedures:
 	The lower level control loops (see Figures \ref{fig:STAMPLevel2+3} and \ref{fig:STAMPLevel4+5}) illustrate a detailed internal control structure of the controlled processes. These processes are interacting as a controller in the lower level structures. Taking into consideration the second level safety control loop, the movement process control (controller) receives the sensor data. Based on the data a control command will be executed to control the BAN which sends a feedback to the movement process controller. The third level control loop zooms into the BAN control, which is the master (controller) that actuates the wake up procedure of the sensor nodes to control the nodes. These will deliver sensor data, including the time to the BAN control.
 	\begin{figure}[!ht]
 		\centering
-		\includegraphics[scale=0.37]{Images/STAMP_SynchError.eps}
+		\includegraphics[scale=0.375]{Images/STAMP_SynchError.eps}
 		\caption[System Safety Control Structure]{System Safety Control Structure - Hierarchy level 1) $\rightarrow$ Black label (system components), \textcolor{blue}{blue label (description of system components)}, \textcolor{red}{red label (possible hazards)}}
 		\label{fig:STAMPLevel1}
 	\end{figure}
@@ -990,7 +990,7 @@ STAMP procedures:
 	The lower level control loops (see Figures \ref{fig:STAMPLevel2+3} and \ref{fig:STAMPLevel4+5}) illustrate a detailed internal control structure of the controlled processes. These processes are interacting as a controller in the lower level structures. Taking into consideration the second level safety control loop, the movement process control (controller) receives the sensor data. Based on the data a control command will be executed to control the BAN which sends a feedback to the movement process controller. The third level control loop zooms into the BAN control, which is the master (controller) that actuates the wake up procedure of the sensor nodes to control the nodes. These will deliver sensor data, including the time to the BAN control.
 	\begin{figure}[!ht]
 		\centering
-		\includegraphics[scale=0.35]{Images/STAMP2+3level(3).eps}
+		\includegraphics[scale=0.37]{Images/STAMP2+3level(3).eps}
 		\caption[Safety Control Structure - Hierarchy level 2 \& 3]{Safety Control Structure - Hierarchy level 2 \& 3}
 		\label{fig:STAMPLevel2+3}
 	\end{figure} 
@@ -999,7 +999,7 @@ STAMP procedures:
 	
 	\begin{figure}[!ht]
 		\centering
-		\includegraphics[scale=0.35]{Images/STAMP4+5level(2).eps}
+		\includegraphics[scale=0.365]{Images/STAMP4+5level(2).eps}
 		\caption[Safety Control Structure - Hierarchy level 4 \& 5]{Safety Control Structure - Hierarchy level 4 \& 5}
 		\label{fig:STAMPLevel4+5}
 	\end{figure}
@@ -1257,6 +1257,7 @@ Paper partially funded by The Ministry of Economy and Competitiveness (Spain) an
 \begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{Images/luigi.eps}}]{Luigi La Blunda}
  received his Bachelor of Engineering degree in Engineering Informatics in 2013 and his Master of Science degree in Barrier-free Systems, with the specialization in Intelligent Systems, in 2016 at the Frankfurt University of Applied Sciences (Germany). He has worked as a tutor in the laboratory experiments of electrical engineering, electronics, and in the lectures of software engineering analysis and design. In 2014 Luigi La Blunda became a research assistant in the WSN \& IOT research group at the Frankfurt University of Applied Sciences (Germany). In addition, he supervises the project lecture Smart Sensor Network Systems in the master programs Barrier-free Systems - Intelligent Systems (BaSys), High Integrity Systems (HIS) and Computer Science. The aim of this course is to develop a running Wireless Smart Sensor Network (WSN) prototype.  His research areas are Internet of Things and Wireless Sensor Networks, with specialization in fall analysis and detection. Since 2016 he is a PhD candidate in the PhD program Engineering Informatics at the University of C\'adiz (Spain).
 \end{IEEEbiography}
+\vfill
 \begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{Images/lorena.eps}}]{Lorena Guti\'errez-Madro\~nal}
 	received her first-class Honours Degree in Computer Systems Management in 2007, her BSc in Computer Science in 2009, her Master of Advanced Studies in Computer Science in 2010 and her PhD in 2017 at the University of C\'adiz (Spain). She has been working at the Department of Computer Science and Engineering as a full time lecturer since 2009. Her research is focused on the Internet of Things and test event generation for any event-processing program. In order to prove the usability of the test generated events, she is using them to apply mutation testing to EPL query languages, such as the Event Processing Language (EPL). She has participated in research projects, all involved in software engineering related aspects. She has served in program and organizing committees at different conferences. She is a researcher of the UCASE Software Engineering Research Group. 
 \end{IEEEbiography}
