@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.8)  29 APR 2019 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.8)  29 APR 2019 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -509,7 +509,7 @@ Package epstopdf Info: Source file: <Images/belt.eps>
 (epstopdf)                    date: 2019-04-29 16:22:02
 (epstopdf)                    size: 95791 bytes
 (epstopdf)             Output file: <Images/belt-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-29 16:56:14
+(epstopdf)                    date: 2019-04-29 17:15:21
 (epstopdf)                    size: 69412 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/belt-eps-converted-
 to.pdf Images/belt.eps>
@@ -526,7 +526,7 @@ Package epstopdf Info: Source file: <Images/axis.eps>
 (epstopdf)                    date: 2019-04-29 12:29:32
 (epstopdf)                    size: 160201 bytes
 (epstopdf)             Output file: <Images/axis-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-29 16:56:17
+(epstopdf)                    date: 2019-04-29 17:15:23
 (epstopdf)                    size: 223841 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/axis-eps-converted-
 to.pdf Images/axis.eps>
@@ -545,7 +545,7 @@ Package epstopdf Info: Source file: <Images/TwoFallsComparative.eps>
 (epstopdf)                    size: 91239 bytes
 (epstopdf)             Output file: <Images/TwoFallsComparative-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2019-04-29 16:56:19
+(epstopdf)                    date: 2019-04-29 17:15:26
 (epstopdf)                    size: 173025 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/TwoFallsComparative
 -eps-converted-to.pdf Images/TwoFallsComparative.eps>
@@ -565,7 +565,7 @@ Package epstopdf Info: Source file: <Images/IoTTEGFAWGeneratedEvents.eps>
 (epstopdf)                    size: 222553 bytes
 (epstopdf)             Output file: <Images/IoTTEGFAWGeneratedEvents-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2019-04-29 16:56:21
+(epstopdf)                    date: 2019-04-29 17:15:28
 (epstopdf)                    size: 234198 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/IoTTEGFAWGeneratedE
 vents-eps-converted-to.pdf Images/IoTTEGFAWGeneratedEvents.eps>
@@ -588,7 +588,7 @@ Package epstopdf Info: Source file: <Images/ECG-BAN.eps>
 (epstopdf)                    date: 2019-04-29 16:29:38
 (epstopdf)                    size: 67471 bytes
 (epstopdf)             Output file: <Images/ECG-BAN-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-29 16:56:24
+(epstopdf)                    date: 2019-04-29 17:15:30
 (epstopdf)                    size: 108356 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/ECG-BAN-eps-convert
 ed-to.pdf Images/ECG-BAN.eps>
@@ -604,7 +604,7 @@ Package epstopdf Info: Source file: <Images/ECG-Harness.eps>
 (epstopdf)                    date: 2019-04-29 16:41:57
 (epstopdf)                    size: 38560 bytes
 (epstopdf)             Output file: <Images/ECG-Harness-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-29 16:56:26
+(epstopdf)                    date: 2019-04-29 17:15:32
 (epstopdf)                    size: 55988 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/ECG-Harness-eps-con
 verted-to.pdf Images/ECG-Harness.eps>
@@ -622,7 +622,7 @@ Package epstopdf Info: Source file: <Images/NormalECG1.eps>
 (epstopdf)                    date: 2019-04-29 16:15:24
 (epstopdf)                    size: 41038 bytes
 (epstopdf)             Output file: <Images/NormalECG1-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-29 16:56:28
+(epstopdf)                    date: 2019-04-29 17:15:35
 (epstopdf)                    size: 14308 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/NormalECG1-eps-conv
 erted-to.pdf Images/NormalECG1.eps>
@@ -633,9 +633,9 @@ File: Images/NormalECG1-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/NormalECG1-eps-converted-to.pdf>
 Package pdftex.def Info: Images/NormalECG1-eps-converted-to.pdf  used on input 
 line 942.
-(pdftex.def)             Requested size: 283.29205pt x 125.66167pt.
+(pdftex.def)             Requested size: 280.39844pt x 124.37813pt.
 
-Overfull \hbox (30.34706pt too wide) in paragraph at lines 942--943
+Overfull \hbox (27.45345pt too wide) in paragraph at lines 942--943
  [][] 
  []
 
@@ -646,7 +646,7 @@ Package epstopdf Info: Source file: <Images/STAMP_SynchError.eps>
 (epstopdf)                    size: 54970 bytes
 (epstopdf)             Output file: <Images/STAMP_SynchError-eps-converted-to.p
 df>
-(epstopdf)                    date: 2019-04-29 16:56:30
+(epstopdf)                    date: 2019-04-29 17:15:37
 (epstopdf)                    size: 53800 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/STAMP_SynchError-ep
 s-converted-to.pdf Images/STAMP_SynchError.eps>
@@ -668,7 +668,7 @@ Package epstopdf Info: Source file: <Images/STAMP2+3level(3).eps>
 (epstopdf)                    size: 42137 bytes
 (epstopdf)             Output file: <Images/STAMP2+3level(3)-eps-converted-to.p
 df>
-(epstopdf)                    date: 2019-04-29 16:56:32
+(epstopdf)                    date: 2019-04-29 17:15:39
 (epstopdf)                    size: 40667 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/STAMP2+3level(3)-ep
 s-converted-to.pdf Images/STAMP2+3level(3).eps>
@@ -686,7 +686,7 @@ Package epstopdf Info: Source file: <Images/STAMP4+5level(2).eps>
 (epstopdf)                    size: 54611 bytes
 (epstopdf)             Output file: <Images/STAMP4+5level(2)-eps-converted-to.p
 df>
-(epstopdf)                    date: 2019-04-29 16:56:34
+(epstopdf)                    date: 2019-04-29 17:15:41
 (epstopdf)                    size: 51490 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/STAMP4+5level(2)-ep
 s-converted-to.pdf Images/STAMP4+5level(2).eps>
@@ -712,7 +712,7 @@ Package epstopdf Info: Source file: <Images/luigi.eps>
 (epstopdf)                    date: 2019-04-23 14:41:25
 (epstopdf)                    size: 114714 bytes
 (epstopdf)             Output file: <Images/luigi-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-29 16:56:36
+(epstopdf)                    date: 2019-04-29 17:15:43
 (epstopdf)                    size: 16193 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/luigi-eps-converted
 -to.pdf Images/luigi.eps>
@@ -728,7 +728,7 @@ Package epstopdf Info: Source file: <Images/luigi.eps>
 (epstopdf)                    date: 2019-04-23 14:41:25
 (epstopdf)                    size: 114714 bytes
 (epstopdf)             Output file: <Images/luigi-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-29 16:56:36
+(epstopdf)                    date: 2019-04-29 17:15:43
 (epstopdf)                    size: 16193 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/luigi-eps-converted
 -to.pdf Images/luigi.eps>
@@ -748,7 +748,7 @@ Package epstopdf Info: Source file: <Images/lorena.eps>
 (epstopdf)                    date: 2019-04-23 14:43:49
 (epstopdf)                    size: 341117 bytes
 (epstopdf)             Output file: <Images/lorena-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-29 16:56:39
+(epstopdf)                    date: 2019-04-29 17:15:45
 (epstopdf)                    size: 34345 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/lorena-eps-converte
 d-to.pdf Images/lorena.eps>
@@ -764,7 +764,7 @@ Package epstopdf Info: Source file: <Images/lorena.eps>
 (epstopdf)                    date: 2019-04-23 14:43:49
 (epstopdf)                    size: 341117 bytes
 (epstopdf)             Output file: <Images/lorena-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-29 16:56:39
+(epstopdf)                    date: 2019-04-29 17:15:45
 (epstopdf)                    size: 34345 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/lorena-eps-converte
 d-to.pdf Images/lorena.eps>
@@ -779,7 +779,7 @@ Package epstopdf Info: Source file: <Images/wagner.eps>
 (epstopdf)                    date: 2019-04-23 14:45:46
 (epstopdf)                    size: 194693 bytes
 (epstopdf)             Output file: <Images/wagner-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-29 16:56:41
+(epstopdf)                    date: 2019-04-29 17:15:48
 (epstopdf)                    size: 27002 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/wagner-eps-converte
 d-to.pdf Images/wagner.eps>
@@ -795,7 +795,7 @@ Package epstopdf Info: Source file: <Images/wagner.eps>
 (epstopdf)                    date: 2019-04-23 14:45:46
 (epstopdf)                    size: 194693 bytes
 (epstopdf)             Output file: <Images/wagner-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-29 16:56:41
+(epstopdf)                    date: 2019-04-29 17:15:48
 (epstopdf)                    size: 27002 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/wagner-eps-converte
 d-to.pdf Images/wagner.eps>
@@ -810,7 +810,7 @@ Package epstopdf Info: Source file: <Images/inma.eps>
 (epstopdf)                    date: 2019-04-23 14:47:24
 (epstopdf)                    size: 243246 bytes
 (epstopdf)             Output file: <Images/inma-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-29 16:56:42
+(epstopdf)                    date: 2019-04-29 17:15:50
 (epstopdf)                    size: 34410 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/inma-eps-converted-
 to.pdf Images/inma.eps>
@@ -826,7 +826,7 @@ Package epstopdf Info: Source file: <Images/inma.eps>
 (epstopdf)                    date: 2019-04-23 14:47:24
 (epstopdf)                    size: 243246 bytes
 (epstopdf)             Output file: <Images/inma-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-29 16:56:42
+(epstopdf)                    date: 2019-04-29 17:15:50
 (epstopdf)                    size: 34410 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/inma-eps-converted-
 to.pdf Images/inma.eps>
@@ -871,7 +871,7 @@ fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw
 /palatino/uplri8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/zapfding/uzdr
 .pfb>
 Output written on A_wearable_fall-detection_system_based_on_BAN.pdf (12 pages, 
-2066935 bytes).
+2066937 bytes).
 PDF statistics:
  217 PDF objects out of 1000 (max. 8388607)
  133 compressed objects within 2 object streams
