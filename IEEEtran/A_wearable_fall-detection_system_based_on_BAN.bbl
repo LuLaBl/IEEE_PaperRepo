@@ -132,8 +132,8 @@ L.~Gutiérrez-Madroñal, ``Github repository,''
   \url{https://github.com/lorgut/FallDetectionData}, 2018.
 
 \bibitem{DrNicoletteWagner}
-N.~{Fritsch-Wagner Dr.}, ``{Private communication - ECG validation and
-  consultation in medical lab},'' 2017.
+N.~{Fritsch-Wagner}, ``{Private communication - ECG validation and consultation
+  in medical lab},'' 2017.
 
 \bibitem{Antonicelli-ECG}
 R.~Antonicelli, C.~Ripa, A.~M. Abbatecola, C.~A. Capparuccia, L.~Ferrara, and
@@ -148,9 +148,9 @@ F.~{Sajid Butt}, ``{Fall-detection using machine learning techniques on
   Germany, 2019.
 
 \bibitem{ECGNoise}
-U.~Banu, G.~{Patil Dr.}, and F.~{Ruksar Dr.}, ``A survey on sources of noise
-  and advanced noise removal techniques of biosignals,'' vol. 7(2).\hskip 1em
-  plus 0.5em minus 0.4em\relax International Journal on Emerging Technologies
+U.~Banu, G.~{Patil}, and F.~{Ruksar}, ``A survey on sources of noise and
+  advanced noise removal techniques of biosignals,'' vol. 7(2).\hskip 1em plus
+  0.5em minus 0.4em\relax International Journal on Emerging Technologies
   (Special Issue on ICRIET-2016), 2016, pp. 8--13.
 
 \bibitem{international2005medical}
