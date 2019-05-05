@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="STAMP4+5level(2).svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker2393"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2391" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2299"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2297" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker2187"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path2185"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1886"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1884"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1840"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1838" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path1429"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1750"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path1748"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1716"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1714" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path1426"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1141"
+       is_visible="true" />
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-5"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1426-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-6"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1429-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98497987"
+     inkscape:cx="425.52953"
+     inkscape:cy="856.22283"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g1010"
+     showgrid="false"
+     showguides="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1001"
+       transform="translate(23.283739,-6.879167)">
+      <rect
+         y="13.884472"
+         x="37.808823"
+         height="34.186474"
+         width="90.225525"
+         id="rect815-3-6"
+         style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#1c0138;stroke-width:0.53900081;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+      <text
+         id="text819"
+         y="29.803572"
+         x="83.01619"
+         style="font-style:normal;font-weight:normal;font-size:5.76650715px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14416267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan821"
+           style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+           y="29.803572"
+           x="83.01619"
+           sodipodi:role="line"><tspan
+             id="tspan946"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Controller</tspan></tspan><tspan
+           id="tspan825"
+           style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+           y="37.311295"
+           x="83.01619"
+           sodipodi:role="line">Sensor node control</tspan></text>
+    </g>
+    <g
+       id="g1017"
+       transform="translate(13.16213,-22.225008)">
+      <rect
+         y="119.80363"
+         x="47.930431"
+         height="34.186474"
+         width="90.225525"
+         id="rect815-3-2"
+         style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#1c0138;stroke-width:0.53900081;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+      <text
+         id="text819-6"
+         y="131.96887"
+         x="93.036438"
+         style="font-style:normal;font-weight:normal;font-size:5.76650715px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14416267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan825-9"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.91980886px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+           y="131.96887"
+           x="93.036438"
+           sodipodi:role="line">Controlled Process</tspan><tspan
+           id="tspan893"
+           style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+           y="139.47659"
+           x="93.036438"
+           sodipodi:role="line">Bluetooth sensor</tspan><tspan
+           id="tspan895"
+           style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+           y="146.98431"
+           x="93.036438"
+           sodipodi:role="line">detection control</tspan></text>
+    </g>
+    <g
+       id="g994"
+       transform="translate(6.5776845,-14.093304)">
+      <rect
+         y="64.79776"
+         x="110.52181"
+         height="34.186474"
+         width="90.225525"
+         id="rect815-3"
+         style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#000100;stroke-width:0.53900081;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+      <text
+         id="text819-5"
+         y="76.902184"
+         x="155.62444"
+         style="font-style:normal;font-weight:normal;font-size:5.76650715px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14416267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan825-5"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.91980886px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+           y="76.902184"
+           x="155.62444"
+           sodipodi:role="line">Sensors</tspan><tspan
+           id="tspan877"
+           style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+           y="84.409904"
+           x="155.62444"
+           sodipodi:role="line">Service &amp; Characteristic</tspan><tspan
+           id="tspan879"
+           style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+           y="91.917625"
+           x="155.62444"
+           sodipodi:role="line">values of sensors</tspan></text>
+    </g>
+    <g
+       id="g1010"
+       transform="translate(6.5776845,-26.622021)">
+      <rect
+         y="77.326477"
+         x="-3.9027064"
+         height="34.186474"
+         width="90.225525"
+         id="rect815-3-06"
+         style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#1c0138;stroke-width:0.53900081;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+      <text
+         id="text819-1"
+         y="84.960724"
+         x="41.193161"
+         style="font-style:normal;font-weight:normal;font-size:5.76650715px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14416267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan825-7"
+           style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+           y="84.960724"
+           x="41.193161"
+           sodipodi:role="line"><tspan
+             id="tspan948"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Actuators</tspan></tspan><tspan
+           id="tspan909"
+           style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+           y="92.500237"
+           x="42.409531"
+           sodipodi:role="line">Scan command </tspan><tspan
+           id="tspan913"
+           style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+           y="100.03975"
+           x="41.193161"
+           sodipodi:role="line">for Bluetooth</tspan><tspan
+           id="tspan911"
+           style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+           y="107.57926"
+           x="41.193161"
+           sodipodi:role="line">sensor properties</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+       d="m 151.49,22.152971 h 10.65217 v 28.596591"
+       id="path1101"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1716)"
+       d="M 161.87287,85.095184 V 113.70808 H 151.59925"
+       id="path1105"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1750)"
+       d="m 60.709344,113.3922 h -10.2123 V 85.133555"
+       id="path1143"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 60.951943,22.596211 H 50.660207 v 27.54544"
+       id="path1143-8"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#1c0138;stroke-width:0.53900081;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect815-3-6-9"
+       width="90.225525"
+       height="34.186474"
+       x="61.09256"
+       y="152.38268" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.76650715px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14416267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="106.05158"
+       y="164.54791"
+       id="text819-2"><tspan
+         sodipodi:role="line"
+         x="106.05158"
+         y="164.54791"
+         style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+         id="tspan821-0"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'"
+           id="tspan946-2">Controller</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="107.15308"
+         y="172.05563"
+         style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+         id="tspan825-3">Bluetooth sensor </tspan><tspan
+         sodipodi:role="line"
+         x="106.05158"
+         y="179.56335"
+         style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+         id="tspan1391">detection control</tspan></text>
+    <rect
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#1c0138;stroke-width:0.53900081;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect815-3-2-5"
+       width="90.225525"
+       height="34.186474"
+       x="61.09256"
+       y="241.36862" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.76650715px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14416267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="106.18167"
+       y="253.53368"
+       id="text819-6-9"><tspan
+         sodipodi:role="line"
+         x="106.18167"
+         y="253.53368"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.91980886px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+         id="tspan825-9-2">Controlled Process</tspan><tspan
+         sodipodi:role="line"
+         x="106.18167"
+         y="261.04141"
+         style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+         id="tspan893-2">Bluetooth connection</tspan><tspan
+         sodipodi:role="line"
+         x="106.18167"
+         y="268.54913"
+         style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+         id="tspan895-8">controller</tspan></text>
+    <rect
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#000100;stroke-width:0.53900081;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect815-3-7"
+       width="90.225525"
+       height="34.186474"
+       x="117.09949"
+       y="196.08191" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.76650715px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14416267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="162.19536"
+       y="208.18633"
+       id="text819-5-3"><tspan
+         sodipodi:role="line"
+         x="162.19536"
+         y="208.18633"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.91980886px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+         id="tspan825-5-6">Sensors</tspan><tspan
+         sodipodi:role="line"
+         x="162.19536"
+         y="215.69405"
+         style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+         id="tspan879-2">List of available sensor</tspan><tspan
+         id="tspan1395"
+         sodipodi:role="line"
+         x="162.19536"
+         y="223.20177"
+         style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px">services &amp; characteristics</tspan></text>
+    <rect
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#1c0138;stroke-width:0.53900081;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect815-3-06-3"
+       width="90.225525"
+       height="34.186474"
+       x="2.674978"
+       y="196.08191" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.76650715px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14416267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="47.44817"
+       y="208.14072"
+       id="text819-1-1"><tspan
+         sodipodi:role="line"
+         x="47.44817"
+         y="208.14072"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.91980886px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+         id="tspan825-7-9">Actuators</tspan><tspan
+         sodipodi:role="line"
+         x="48.549664"
+         y="215.64844"
+         style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px"
+         id="tspan911-4">Bluetooth connection </tspan><tspan
+         id="tspan1401"
+         sodipodi:role="line"
+         x="47.44817"
+         y="223.15616"
+         style="font-size:6.91980886px;text-align:center;text-anchor:middle;stroke-width:0.14416267px">command</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2393)"
+       d="m 161.87754,230.46586 v 27.81176 h -10.28436"
+       id="path1105-0"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2187)"
+       d="M 60.70934,258.07945 H 50.49704 V 230.5109"
+       id="path1143-3"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:70.09999752%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="163.05113"
+       y="34.396477"
+       id="text1420"><tspan
+         sodipodi:role="line"
+         id="tspan1418"
+         x="163.05113"
+         y="34.396477"
+         style="font-size:5.64444447px;line-height:70.09999752%;fill:#ff0000;stroke-width:0.26458332px">- Sensor node jam</tspan><tspan
+         sodipodi:role="line"
+         x="163.05113"
+         y="41.815392"
+         style="font-size:5.64444447px;line-height:70.09999752%;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan1422">- Incomplete data</tspan><tspan
+         sodipodi:role="line"
+         x="163.05113"
+         y="49.23431"
+         style="font-size:5.64444447px;line-height:70.09999752%;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan1424">- Loss of data</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:70.09999752%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="2.8825753"
+       y="93.362213"
+       id="text1420-1"><tspan
+         sodipodi:role="line"
+         x="2.8825753"
+         y="93.362213"
+         style="font-size:5.64444447px;line-height:70.09999752%;text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan2047">- Unable to scan </tspan><tspan
+         sodipodi:role="line"
+         x="2.8825753"
+         y="100.78113"
+         style="font-size:5.64444447px;line-height:70.09999752%;text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan2053">for properties</tspan><tspan
+         sodipodi:role="line"
+         x="2.8825753"
+         y="108.20004"
+         style="font-size:5.64444447px;line-height:70.09999752%;text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan2051">- Sensor not </tspan><tspan
+         sodipodi:role="line"
+         x="2.8825753"
+         y="115.61897"
+         style="font-size:5.64444447px;line-height:70.09999752%;text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan2055">ready to scan</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:70.09999752%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="164.29135"
+       y="105.58247"
+       id="text1420-1-2"><tspan
+         sodipodi:role="line"
+         x="164.29135"
+         y="105.58247"
+         style="font-size:5.64444447px;line-height:70.09999752%;text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan2047-0">- Unable to detect</tspan><tspan
+         sodipodi:role="line"
+         x="164.29135"
+         y="113.00139"
+         style="font-size:5.64444447px;line-height:70.09999752%;text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan2084">sensor services </tspan><tspan
+         sodipodi:role="line"
+         x="164.29135"
+         y="120.4203"
+         style="font-size:5.64444447px;line-height:70.09999752%;text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan2086">&amp; characteristics</tspan><tspan
+         sodipodi:role="line"
+         x="164.29135"
+         y="127.83923"
+         style="font-size:5.64444447px;line-height:70.09999752%;text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan2055-5">- Physical problem</tspan><tspan
+         sodipodi:role="line"
+         x="164.29135"
+         y="135.25813"
+         style="font-size:5.64444447px;line-height:70.09999752%;text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan2093">with sensor</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000100;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.50000004, 1.50000004;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect2095"
+       width="97.239716"
+       height="42.441647"
+       x="57.585464"
+       y="93.451027" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart-5)"
+       d="m 151.45531,167.68605 h 10.65217 v 28.59659"
+       id="path1101-7"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-6)"
+       d="M 60.98651,167.95533 H 50.694774 v 27.54544"
+       id="path1143-8-69"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:70.09999752%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="0.30829677"
+       y="264.8649"
+       id="text1420-1-3"><tspan
+         sodipodi:role="line"
+         x="0.30829677"
+         y="264.8649"
+         style="font-size:5.64444447px;line-height:70.09999752%;text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan4263">- Unable to stablish </tspan><tspan
+         sodipodi:role="line"
+         x="0.30829677"
+         y="272.28381"
+         style="font-size:5.64444447px;line-height:70.09999752%;text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan4265">bluetooth connection</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:70.09999752%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="152.47717"
+       y="265.3096"
+       id="text1420-1-3-5"><tspan
+         sodipodi:role="line"
+         x="152.47717"
+         y="265.3096"
+         style="font-size:5.64444447px;line-height:70.09999752%;text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan4265-7">- Providing incomplete</tspan><tspan
+         sodipodi:role="line"
+         x="152.47717"
+         y="272.72852"
+         style="font-size:5.64444447px;line-height:70.09999752%;text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan4296">sensor information</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:70.09999752%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="162.82452"
+       y="173.71085"
+       id="text1420-1-3-5-4"><tspan
+         sodipodi:role="line"
+         x="162.82452"
+         y="173.71085"
+         style="font-size:5.64444447px;line-height:70.09999752%;text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan4296-3">- Incomplete list</tspan><tspan
+         sodipodi:role="line"
+         x="162.82452"
+         y="181.12976"
+         style="font-size:5.64444447px;line-height:70.09999752%;text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan4321">of services &amp;</tspan><tspan
+         sodipodi:role="line"
+         x="162.82452"
+         y="188.54868"
+         style="font-size:5.64444447px;line-height:70.09999752%;text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"
+         id="tspan4323">charasteristics</tspan></text>
+  </g>
+</svg>

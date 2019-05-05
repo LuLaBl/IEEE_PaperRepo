@@ -961,7 +961,7 @@ STAMP is a comprehensive hazard analysis method based on system theory. A major 
 	\item Accidents based on hardware and software component failure
 	\item Unsafe interactions among components
 	\item Complex human machine interfaces and human error models
-	\item Erros in system design
+	\item Errors in system design
 	\item Faulty requirements
 \end{itemize}  
 STAMP treats accidents as a control problem. To prevent accidents safety constraints derived from system safety requirements must be enforced inside the different system hierarchy levels. If the given safety constraints are violated accidents may occur. Checking the enforcement of safety constraints leads to an additional layer of system testing. 
@@ -983,7 +983,7 @@ STAMP procedures:
 	The lower level control loops (see Figures \ref{fig:STAMPLevel2+3} and \ref{fig:STAMPLevel4+5}) illustrate a detailed internal control structure of the controlled processes. These processes are interacting as a controller in the lower level structures. Taking into consideration the second level safety control loop, the movement process control (controller) receives the sensor data. Based on the data a control command will be executed to control the BAN which sends a feedback to the movement process controller. The third level control loop zooms into the BAN control, which is the master (controller) that actuates the wake up procedure of the sensor nodes to control the nodes. These will deliver sensor data, including the time to the BAN control.
 	\begin{figure}[!ht]
 		\centering
-		\includegraphics[scale=0.3725]{Images/STAMP_SynchError.eps}
+		\includegraphics[scale=0.3125]{Images/STAMP_SynchError(2).eps}
 		\caption[System Safety Control Structure]{System Safety Control Structure - Hierarchy level 1) $\rightarrow$ Black label (system components), \textcolor{blue}{blue label (description of system components)}, \textcolor{red}{red label (possible hazards)}}
 		\label{fig:STAMPLevel1}
 	\end{figure}
@@ -991,7 +991,7 @@ STAMP procedures:
 	The lower level control loops (see Figures \ref{fig:STAMPLevel2+3} and \ref{fig:STAMPLevel4+5}) illustrate a detailed internal control structure of the controlled processes. These processes are interacting as a controller in the lower level structures. Taking into consideration the second level safety control loop, the movement process control (controller) receives the sensor data. Based on the data a control command will be executed to control the BAN which sends a feedback to the movement process controller. The third level control loop zooms into the BAN control, which is the master (controller) that actuates the wake up procedure of the sensor nodes to control the nodes. These will deliver sensor data, including the time to the BAN control.
 	\begin{figure}[!ht]
 		\centering
-		\includegraphics[scale=0.37]{Images/STAMP2+3level(3).eps}
+		\includegraphics[scale=0.35]{Images/STAMP2+3level.eps}
 		\caption[Safety Control Structure - Hierarchy level 2 \& 3]{Safety Control Structure - Hierarchy level 2 \& 3}
 		\label{fig:STAMPLevel2+3}
 	\end{figure} 
@@ -1000,14 +1000,14 @@ STAMP procedures:
 	
 	\begin{figure}[!ht]
 		\centering
-		\includegraphics[scale=0.3675]{Images/STAMP4+5level(2).eps}
+		\includegraphics[scale=0.35]{Images/STAMP4+5level.eps}
 		\caption[Safety Control Structure - Hierarchy level 4 \& 5]{Safety Control Structure - Hierarchy level 4 \& 5}
 		\label{fig:STAMPLevel4+5}
 	\end{figure}
 	
-	Taking into consideration the fifth level of the control loop which is depicted in Figure \ref{fig:STAMPLevel4+5} an accurate view of the controlled process Bluetooth sensor detection control in level 4 is provided. The master Bluetooth sensor detection control (controller) actuates a connection command via BLE (actuator) to establish a connection to the sensors (controlled process: Bluetooth connection control) which sends a list of available sensor's services and characteristics to the controller. 
+	Taking into consideration the fifth level of the control loop, which is depicted in Figure \ref{fig:STAMPLevel4+5}, an accurate view of the controlled process Bluetooth sensor detection control in level 4 is provided. The master Bluetooth sensor detection control (controller) actuates a connection command via BLE (actuator) to establish a connection to the sensors (controlled process: Bluetooth connection control) which sends a list of available sensor's services and characteristics to the controller. 
 	
-	All these hazards (see red labels in Figure \ref{fig:STAMPLevel1}, \ref{fig:STAMPLevel2+3}, \ref{fig:STAMPLevel4+5}) lead to safety constraints.
+	All these hazards (see red labels in Figure \ref{fig:STAMPLevel1}, \ref{fig:STAMPLevel2+3} and \ref{fig:STAMPLevel4+5}) lead to safety constraints.
 	Some of the safety constraints are defined as follows when considering the control loop structures of the second and third system levels:
 	\begin{itemize}
 		\item Second level control structure $\rightarrow$ to avoid data loss and provide a reliable evaluation of events by the movement process controller, the sensors should provide synchronized data.
