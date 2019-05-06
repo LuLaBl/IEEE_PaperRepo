@@ -749,10 +749,10 @@ The dataset consists of the following information:
 	SensorID, $\alpha_{x}$, $\alpha_{y}$, $\alpha_{z}$ measured in m/$s^2$
 \end{center}
 \begin{itemize}
-	\item \textbf{SensorID} $\rightarrow$ sensor node identification.
-	\item \boldmath{$\alpha_{x}$} $\rightarrow$ acceleration value in X-direction.
-	\item \boldmath{$\alpha_{y}$} $\rightarrow$ acceleration value in Y-direction.
-	\item \boldmath{$\alpha_{z}$} $\rightarrow$ acceleration value in Z-direction.
+	\item SensorID $\rightarrow$ sensor node identification.
+	\item $\alpha_{x}$ $\rightarrow$ acceleration value in X-direction.
+	\item $\alpha_{y}$ $\rightarrow$ acceleration value in Y-direction.
+	\item $\alpha_{z}$ $\rightarrow$ acceleration value in Z-direction.
 \end{itemize} 
 The central device receives the incoming sensor data which will be stored in separate data files to evaluate the event. 
 The belt solution reflects the above criteria of a safety critical systems. The proposed architecture (see Figure \ref{fig:BanBelt}) is based on a mirroring principle of the opposite sensor nodes which provide identical acceleration values, only with different signs. If a sensor node fails during operation, the opposite node can be used as a reference to ensure accurate evaluation of the event.  Considering the following scheme (see Figure \ref{fig:ReferenceScheme}) this fall detection belt solution facilitates the recognition of different fall event types. The positioning of the nodes around the hip allows a precise fall characterization.
@@ -973,10 +973,10 @@ The controller unit of the control structure is acting as a master and includes 
 STAMP procedures:
 
 \begin{itemize}
-	\item \textbf{Definition of accidents:} Person has fallen and the fall was not detected by the system.
-	\item \textbf{Definition of hazards:} Data from 1 to 4 sensors of the belt are not sufficiently correlated in time (synchronization error).
-	\item \textbf{Definition of safety requirements and constraints:} The safety requirements and constraints are based on the hazard which causes the accident. Safety constraints are used to describe non-permissible system operations in order to ensure safe operating conditions. A top level safety requirement is the real time detection of fall events. The timestamps of all four nodes must be synchronized. If constraints are violated system migrates to unsafe or hazardous state.
-	\item \textbf{Definition of safety control structure:}
+	\item \textit{Definition of accidents:} Person has fallen and the fall was not detected by the system.
+	\item \textit{Definition of hazards:} Data from 1 to 4 sensors of the belt are not sufficiently correlated in time (synchronization error).
+	\item \textit{Definition of safety requirements and constraints:} The safety requirements and constraints are based on the hazard which causes the accident. Safety constraints are used to describe non-permissible system operations in order to ensure safe operating conditions. A top level safety requirement is the real time detection of fall events. The timestamps of all four nodes must be synchronized. If constraints are violated system migrates to unsafe or hazardous state.
+	\item \textit{Definition of safety control structure:}
 	A high-level safety control structure should be defined which contains the system's components and the process which should be controlled. The control structure below (see Figure. \ref{fig:STAMPLevel1}) depicts the control loop of the controlled process, the movement of the person.
 	The sensors provide sensor data to the controller (smartphone application). The smartphone contains a data acquisition algorithm to collect the incoming data and a fall detection algorithm to analyze this data. If the event corresponds to a fall, the alert system on the mobile device will call the emergency services for intervention. The actuator part of the system contains the control of the data acquisition process, i.e. timers, sleep mode etc.
 \end{itemize}	

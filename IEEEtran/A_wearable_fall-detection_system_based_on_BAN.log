@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.8)  6 MAY 2019 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.8)  6 MAY 2019 14:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -583,7 +583,7 @@ ted-to.pdf>
 vents-eps-converted-to.pdf Images/IoTTEGFAWGeneratedEvents.eps>
 (epstopdf)             \includegraphics on input line 903.
 Package epstopdf Info: Output file is already uptodate.
-<Images/IoTTEGFAWGeneratedEvents-eps-converted-to.pdf, id=70, 1159.33125pt x 67
+<Images/IoTTEGFAWGeneratedEvents-eps-converted-to.pdf, id=66, 1159.33125pt x 67
 8.535pt>
 File: Images/IoTTEGFAWGeneratedEvents-eps-converted-to.pdf Graphic file (type p
 df)
@@ -606,7 +606,7 @@ Package epstopdf Info: Source file: <Images/ECG-BAN.eps>
 ed-to.pdf Images/ECG-BAN.eps>
 (epstopdf)             \includegraphics on input line 913.
 Package epstopdf Info: Output file is already uptodate.
-<Images/ECG-BAN-eps-converted-to.pdf, id=71, 794.97pt x 442.65375pt>
+<Images/ECG-BAN-eps-converted-to.pdf, id=67, 794.97pt x 442.65375pt>
 File: Images/ECG-BAN-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/ECG-BAN-eps-converted-to.pdf>
 Package pdftex.def Info: Images/ECG-BAN-eps-converted-to.pdf  used on input lin
@@ -622,7 +622,7 @@ Package epstopdf Info: Source file: <Images/ECG-Harness.eps>
 verted-to.pdf Images/ECG-Harness.eps>
 (epstopdf)             \includegraphics on input line 925.
 Package epstopdf Info: Output file is already uptodate.
-<Images/ECG-Harness-eps-converted-to.pdf, id=72, 523.9575pt x 372.39125pt>
+<Images/ECG-Harness-eps-converted-to.pdf, id=68, 523.9575pt x 372.39125pt>
 File: Images/ECG-Harness-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/ECG-Harness-eps-converted-to.pdf>
 Package pdftex.def Info: Images/ECG-Harness-eps-converted-to.pdf  used on input
@@ -640,7 +640,7 @@ Package epstopdf Info: Source file: <Images/NormalECG1.eps>
 erted-to.pdf Images/NormalECG1.eps>
 (epstopdf)             \includegraphics on input line 943.
 Package epstopdf Info: Output file is already uptodate.
-<Images/NormalECG1-eps-converted-to.pdf, id=84, 1156.32pt x 512.91624pt>
+<Images/NormalECG1-eps-converted-to.pdf, id=80, 1156.32pt x 512.91624pt>
 File: Images/NormalECG1-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/NormalECG1-eps-converted-to.pdf>
 Package pdftex.def Info: Images/NormalECG1-eps-converted-to.pdf  used on input 
@@ -664,7 +664,7 @@ o.pdf>
 -eps-converted-to.pdf Images/STAMP_SynchError(2).eps>
 (epstopdf)             \includegraphics on input line 986.
 Package epstopdf Info: Output file is already uptodate.
-<Images/STAMP_SynchError(2)-eps-converted-to.pdf, id=96, 613.29124pt x 735.7487
+<Images/STAMP_SynchError(2)-eps-converted-to.pdf, id=92, 613.29124pt x 735.7487
 5pt>
 File: Images/STAMP_SynchError(2)-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/STAMP_SynchError(2)-eps-converted-to.pdf>
@@ -682,7 +682,7 @@ Package epstopdf Info: Source file: <Images/STAMP2+3level.eps>
 onverted-to.pdf Images/STAMP2+3level.eps>
 (epstopdf)             \includegraphics on input line 994.
 Package epstopdf Info: Output file is already uptodate.
-<Images/STAMP2+3level-eps-converted-to.pdf, id=97, 603.25375pt x 764.8575pt>
+<Images/STAMP2+3level-eps-converted-to.pdf, id=93, 603.25375pt x 764.8575pt>
 File: Images/STAMP2+3level-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/STAMP2+3level-eps-converted-to.pdf>
 Package pdftex.def Info: Images/STAMP2+3level-eps-converted-to.pdf  used on inp
@@ -699,7 +699,7 @@ Package epstopdf Info: Source file: <Images/STAMP4+5level.eps>
 onverted-to.pdf Images/STAMP4+5level.eps>
 (epstopdf)             \includegraphics on input line 1003.
 Package epstopdf Info: Output file is already uptodate.
-<Images/STAMP4+5level-eps-converted-to.pdf, id=98, 614.295pt x 765.86125pt>
+<Images/STAMP4+5level-eps-converted-to.pdf, id=94, 614.295pt x 765.86125pt>
 File: Images/STAMP4+5level-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/STAMP4+5level-eps-converted-to.pdf>
 Package pdftex.def Info: Images/STAMP4+5level-eps-converted-to.pdf  used on inp
@@ -726,7 +726,7 @@ Package epstopdf Info: Source file: <Images/luigi.eps>
 -to.pdf Images/luigi.eps>
 (epstopdf)             \includegraphics on input line 1258.
 Package epstopdf Info: Output file is already uptodate.
-<Images/luigi-eps-converted-to.pdf, id=171, 116.435pt x 149.55875pt>
+<Images/luigi-eps-converted-to.pdf, id=167, 116.435pt x 149.55875pt>
 File: Images/luigi-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/luigi-eps-converted-to.pdf>
 Package pdftex.def Info: Images/luigi-eps-converted-to.pdf  used on input line 
@@ -762,7 +762,7 @@ Package epstopdf Info: Source file: <Images/lorena.eps>
 d-to.pdf Images/lorena.eps>
 (epstopdf)             \includegraphics on input line 1262.
 Package epstopdf Info: Output file is already uptodate.
-<Images/lorena-eps-converted-to.pdf, id=174, 114.4275pt x 148.555pt>
+<Images/lorena-eps-converted-to.pdf, id=170, 114.4275pt x 148.555pt>
 File: Images/lorena-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/lorena-eps-converted-to.pdf>
 Package pdftex.def Info: Images/lorena-eps-converted-to.pdf  used on input line
@@ -793,7 +793,7 @@ Package epstopdf Info: Source file: <Images/wagner.eps>
 d-to.pdf Images/wagner.eps>
 (epstopdf)             \includegraphics on input line 1265.
 Package epstopdf Info: Output file is already uptodate.
-<Images/wagner-eps-converted-to.pdf, id=177, 177.66376pt x 236.885pt>
+<Images/wagner-eps-converted-to.pdf, id=173, 177.66376pt x 236.885pt>
 File: Images/wagner-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/wagner-eps-converted-to.pdf>
 Package pdftex.def Info: Images/wagner-eps-converted-to.pdf  used on input line
@@ -824,7 +824,7 @@ Package epstopdf Info: Source file: <Images/inma.eps>
 to.pdf Images/inma.eps>
 (epstopdf)             \includegraphics on input line 1268.
 Package epstopdf Info: Output file is already uptodate.
-<Images/inma-eps-converted-to.pdf, id=180, 177.66376pt x 230.8625pt>
+<Images/inma-eps-converted-to.pdf, id=176, 177.66376pt x 230.8625pt>
 File: Images/inma-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/inma-eps-converted-to.pdf>
 Package pdftex.def Info: Images/inma-eps-converted-to.pdf  used on input line 1
@@ -849,40 +849,36 @@ Package pdftex.def Info: Images/inma-eps-converted-to.pdf  used on input line 1
 > <./Images/wagner-eps-converted-to.pdf> <./Images/inma-eps-converted-to.pdf>]
 (./A_wearable_fall-detection_system_based_on_BAN.aux) ) 
 Here is how much of TeX's memory you used:
- 6326 strings out of 492649
- 93342 string characters out of 6133385
- 320523 words of memory out of 5000000
- 10072 multiletter control sequences out of 15000+600000
- 55873 words of font info for 124 fonts, out of 8000000 for 9000
+ 6299 strings out of 492649
+ 92985 string characters out of 6133385
+ 321523 words of memory out of 5000000
+ 10054 multiletter control sequences out of 15000+600000
+ 53116 words of font info for 115 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  41i,10n,51p,2020b,1372s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-d
 ist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
-/cmextra/cmbsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><c:/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
-c:/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/texlive/2018/
-texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2018/texmf-dist/fonts
-/type1/urw/courier/ucrro8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/helv
-etic/uhvb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
-><c:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2
-018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2018/texmf-dist/
-fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw
-/palatino/uplri8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/zapfding/uzdr
-.pfb>
+amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.
+pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrb
+8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texli
+ve/2018/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb><c:/texlive/2018/texmf-d
+ist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1
+/urw/helvetic/uhvr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/u
+hvro8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/
+texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2018/te
+xmf-dist/fonts/type1/urw/palatino/uplri8a.pfb><c:/texlive/2018/texmf-dist/fonts
+/type1/urw/zapfding/uzdr.pfb>
 Output written on A_wearable_fall-detection_system_based_on_BAN.pdf (12 pages, 
-2052207 bytes).
+2014879 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 260 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
