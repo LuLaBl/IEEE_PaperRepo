@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.8)  6 MAY 2019 14:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.8)  7 MAY 2019 21:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -710,7 +710,7 @@ Underfull \vbox (badness 1286) has occurred while \output is active []
 
  [10 <./Images/STAMP2+3level-eps-converted-to.pdf> <./Images/STAMP4+5level-eps-
 converted-to.pdf>] (./A_wearable_fall-detection_system_based_on_BAN.bbl
-Underfull \hbox (badness 2057) in paragraph at lines 43--45
+Underfull \hbox (badness 2057) in paragraph at lines 49--51
 []\OT1/ppl/m/n/8.03 EsperTech, ``Es-pertech web-site,'' $http : / / www\OML/cmm
 /m/it/8 :\OT1/ppl/m/n/8.03 espertech\OML/cmm/m/it/8 :\OT1/ppl/m/n/8.03 com /
  []
@@ -849,10 +849,10 @@ Package pdftex.def Info: Images/inma-eps-converted-to.pdf  used on input line 1
 > <./Images/wagner-eps-converted-to.pdf> <./Images/inma-eps-converted-to.pdf>]
 (./A_wearable_fall-detection_system_based_on_BAN.aux) ) 
 Here is how much of TeX's memory you used:
- 6299 strings out of 492649
- 92985 string characters out of 6133385
- 321523 words of memory out of 5000000
- 10054 multiletter control sequences out of 15000+600000
+ 6300 strings out of 492649
+ 92997 string characters out of 6133385
+ 321612 words of memory out of 5000000
+ 10055 multiletter control sequences out of 15000+600000
  53116 words of font info for 115 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  41i,10n,51p,2020b,1372s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -875,7 +875,7 @@ texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2018/te
 xmf-dist/fonts/type1/urw/palatino/uplri8a.pfb><c:/texlive/2018/texmf-dist/fonts
 /type1/urw/zapfding/uzdr.pfb>
 Output written on A_wearable_fall-detection_system_based_on_BAN.pdf (12 pages, 
-2014879 bytes).
+2015536 bytes).
 PDF statistics:
  260 PDF objects out of 1000 (max. 8388607)
  137 compressed objects within 2 object streams

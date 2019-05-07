@@ -9,7 +9,7 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
 Warning--I'm ignoring Antonicelli-ECG's extra "note" field
---line 479 of file references.bib
+--line 497 of file references.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -30,45 +30,45 @@ Warning--empty year in international2005medical
 Warning--empty year in STAMPThesis
 
 Done.
-You've used 25 entries,
+You've used 26 entries,
             4087 wiz_defined-function locations,
-            985 strings with 12898 characters,
-and the built_in function-call counts, 16183 in all, are:
-= -- 1312
-> -- 359
+            991 strings with 13122 characters,
+and the built_in function-call counts, 16694 in all, are:
+= -- 1353
+> -- 376
 < -- 103
-+ -- 194
-- -- 73
-* -- 782
-:= -- 2547
-add.period$ -- 56
-call.type$ -- 25
-change.case$ -- 39
++ -- 202
+- -- 77
+* -- 806
+:= -- 2635
+add.period$ -- 58
+call.type$ -- 26
+change.case$ -- 41
 chr.to.int$ -- 225
-cite$ -- 40
-duplicate$ -- 1203
-empty$ -- 1325
-format.name$ -- 83
-if$ -- 3709
+cite$ -- 41
+duplicate$ -- 1247
+empty$ -- 1368
+format.name$ -- 88
+if$ -- 3824
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 233
-newline$ -- 100
-num.names$ -- 27
-pop$ -- 548
+int.to.str$ -- 26
+missing$ -- 242
+newline$ -- 103
+num.names$ -- 28
+pop$ -- 570
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1233
+skip$ -- 1271
 stack$ -- 0
-substring$ -- 605
-swap$ -- 912
+substring$ -- 608
+swap$ -- 939
 text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 25
+type$ -- 26
 warning$ -- 15
-while$ -- 66
-width$ -- 27
-write$ -- 256
+while$ -- 67
+width$ -- 28
+write$ -- 265
 (There were 16 warnings)

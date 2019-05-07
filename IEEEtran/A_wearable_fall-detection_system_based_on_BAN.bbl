@@ -39,6 +39,12 @@ L.~{La Blunda} and M.~Wagner, ``Fall-detection belt based on body area
   {Alekseev, S.} and {Dowland, P. S.} and {Ghita, B.} and {Schneider, O.},
   2016, pp. 159--163.
 
+\bibitem{LorenaFall}
+L.~{Gutiérrez-Madroñal}, L.~{La Blunda}, M.~F. {Wagner}, and
+  I.~{Medina-Bulo}, ``Test event generation for a fall-detection iot system,''
+  \emph{IEEE Internet of Things Journal}, 2019, doi:
+  \url{10.1109/JIOT.2019.2909434}.
+
 \bibitem{Esper:2016}
 EsperTech, ``Espertech website,''
   \url{http://www.espertech.com/esper/index.php}, {L}ast access: 08-08-2018.
