@@ -674,7 +674,7 @@ The illustrated EPL query (see Example \ref{CEPPattern}) is based on the physica
 	\item a1.accelS2 $\rightarrow$ initial acceleration value of sensor node 2.
 	\item a2.accelS2 $\rightarrow$ successive acceleration value of sensor node 2.
 \end{itemize}
-Referring to the selected properties this example checks, if the initial acceleration of node 1 (a1.accelS1) is $<= 9.81$ m/$s^2$ which indicate that the person is in a stationary position. Subsequently, it will be checked if the difference of the successive acceleration (a2.accelS1) and the first acceleration (a1.accelS1) within 1 second is $>= 9.81$ m/$s^2$. If this condition is fulfilled, it is an indication that the person has suffered an impact. Adding the OR disjunction the second sensor node can be integrated and the statement is able to detect a fall in case one of the node's data matches the Esper EPL query and the values of the acceleration correspond to the same person.
+Referring to the selected properties this example checks, if the initial acceleration of node 1 (a1.accelS1) is $<= 9.81$ m/$s^2$ which indicates that the person is in a stationary position. Subsequently, it will be checked if the difference of the successive acceleration (a2.accelS1) and the first acceleration (a1.accelS1) within 1 second is $>= 9.81$ m/$s^2$. If this condition is fulfilled, it is an indication that the person has suffered an impact. Adding the OR disjunction the second sensor node can be integrated and the statement is able to detect a fall in case one of the node's data matches the Esper EPL query and the values of the acceleration correspond to the same person.
 
 \subsection{IoT test event generator cf.\cite{LorenaFall}}
 \label{iotteg}
