@@ -417,7 +417,7 @@ of Computer Science and Engineering, WSN \& IOT Research Group, Frankfurt Univer
 % \\ is fragile and will error, could use \hfil\break instead.
 %E-mail: see http://www.michaelshell.org/contact.html
 \IEEEcompsocthanksitem L. Guti\'errez-Madro\~nal and I. Medina-Bulo are with the Department of Computer Science and Engineering, UCASE Software Engineering Research Group, University of C\'adiz, 11519 Puerto Real, Spain, E-mail: lorena.gutierrez@uca.es, inmaculada.medina@uca.es.}% <-this % stops an unwanted space
-\thanks{Manuscript received May 6, 2019.\newline (Corresponding author: Luigi La Blunda.)}}
+\thanks{Manuscript received May 9, 2019.\newline (Corresponding author: Luigi La Blunda.)}}
 
 % note the % following the last \IEEEmembership and also \thanks - 
 % these prevent an unwanted space from occurring between the last author name
@@ -556,9 +556,9 @@ To counteract these life-threatening events fast assistance is necessary due to 
 	\label{fig:escalationscheme}
 \end{figure}
 
-A prototype in form of a belt has been developed which includes an electrocardiogram (ECG) harness and is based on a five sensor nodes Body Area Network (BAN). Each sensor node of the belt acquires continuously acceleration data including timestamp and the sensor node of the ECG harness provides the ECG signals including timestamp. In case of a fall the system should be capable to autonomously call the emergency services. Applying sensor fusion of physical and medical sensors we expect to improve the reliability of fall detection and possibly fall prevention. Another expectation is that the integration of medical sensors may facilitate the classification of different fall types. Detecting and classifying falls are critical in situations that may lead to loss of life if detected incorrectly. The BAN is generating a large amount of data in real time. Therefore data analysis technologies have to be used cf.\cite{LorenaFall}. Complex Event Processing (CEP) \cite{Esper:2016} is a data analysis technology which is used to manage and monitor in real time a huge volume of information that arrives in form of events with the lowest latency time. The CEP technology requires the usage of special software, the CEP engine. Each CEP technology provides a language called Event Process Languages (EPL). The EPL is used to detect relevant situations in real time by defining event patterns, in our case these relevant situations correspond to the detection of fall events. There are imperatives, rule-oriented and stream-oriented EPL types. For our research a stream-oriented EPL is used which will be introduced in Subsection \ref{subsec:CEP}.
+A prototype in form of a belt has been developed which includes an electrocardiogram (ECG) harness and is based on a five sensor nodes Body Area Network (BAN). Each sensor node of the belt acquires continuously acceleration data including timestamp and the sensor node of the ECG harness provides the ECG signals including timestamp. In case of a fall the system should be capable to autonomously call the emergency services. Applying sensor fusion of physical and medical sensors we expect to improve the reliability of fall detection and possibly fall prevention. Another expectation is that the integration of medical sensors may facilitate the classification of different fall types. Detecting and classifying falls are critical in situations that may lead to loss of life if detected incorrectly. The BAN is generating a large amount of data in real time. Therefore data analysis technologies have to be used \cite{LorenaFall}. Complex Event Processing (CEP) \cite{Esper:2016} is a data analysis technology which is used to manage and monitor in real time a huge volume of information that arrives in form of events with the lowest latency time. The CEP technology requires the usage of special software, the CEP engine. Each CEP technology provides a language called Event Process Languages (EPL). The EPL is used to detect relevant situations in real time by defining event patterns, in our case these relevant situations correspond to the detection of fall events. There are imperatives, rule-oriented and stream-oriented EPL types. For our research a stream-oriented EPL is used which will be introduced in Subsection \ref{subsec:CEP}.
 
-Since testing the system plays an essential role in verifying the reliability of our fall detection prototype by simulating all possible fall events, the IoT-TEG tool cf.\cite{LorenaFall}, \cite{Gutierrez2017,TesisGutierrez2017} is used. IoT-TEG cf.\cite{LorenaFall}, \cite{Gutierrez2017,TesisGutierrez2017} is capable to automatically generate test events of any event type, so it can be adapted to different types of event falls.
+Since testing the system plays an essential role in verifying the reliability of our fall detection prototype by simulating all possible fall events, the IoT-TEG tool \cite{LorenaFall}, \cite{Gutierrez2017,TesisGutierrez2017} is used. IoT-TEG is capable to automatically generate test events of any event type, so it can be adapted to different types of event falls.
 With reference to the development of a reliable fall detection solution and the above mentioned expectations our ongoing research will be confronted with the following questions:
 \begin{itemize}
 	\item Will the integration of medical sensors improve the reliability of the fall detection system?
@@ -566,7 +566,7 @@ With reference to the development of a reliable fall detection solution and the 
 \end{itemize}
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
-The paper is structured as follows. Section \ref{sec:relatedwork} describes the related work regarding fall detection. In this section a short overview about existing solutions and different approaches for fall detection is given. Section \ref{sec:background} will describe the basic principles on which our ongoing fall detection research is based which contains the basic knowledge about falls, CEP \cite{Esper:2016} and IoT-TEG tool cf.\cite{LorenaFall}, \cite{Gutierrez2017, TesisGutierrez2017}. In the successive section (Section \ref{sec:fall-detectionPrototype}) a detailed description of the fall detection prototype, including the generation of test events that includes the results of the fall analysis are introduced. Additionally, this section contains the usage of the ECG sensors and detected problems. Section \ref{sec:STAMP} will introduce the hazard analysis method STAMP \cite{leveson2011engineering} which is applied on the fall detection prototype. Section \ref{sec:FindingsResearchQuestions} discusses the findings of the research questions of our ongoing research. Finally, in Section \ref{sec:conclusion} a conclusion is given, including some indications for improvement which could be applied in the future work.
+The paper is structured as follows. Section \ref{sec:relatedwork} describes the related work regarding fall detection. In this section a short overview about existing solutions and different approaches for fall detection is given. Section \ref{sec:background} will describe the basic principles on which our ongoing fall detection research is based which contains the basic knowledge about falls, CEP \cite{Esper:2016} and IoT-TEG tool. In the successive section (Section \ref{sec:fall-detectionPrototype}) a detailed description of the fall detection prototype, including the generation of test events that includes the results of the fall analysis are introduced. Additionally, this section contains the usage of the ECG sensors and detected problems. Section \ref{sec:STAMP} will introduce the hazard analysis method STAMP \cite{leveson2011engineering} which is applied on the fall detection prototype. Section \ref{sec:FindingsResearchQuestions} discusses the findings of the research questions of our ongoing research. Finally, in Section \ref{sec:conclusion} a conclusion is given, including some indications for improvement which could be applied in the future work.
 
 %\hfill mds
  
@@ -591,7 +591,7 @@ The techniques used for the fall detection in wearable solutions are the followi
 	\item Threshold-based approach
 	\item Fall detection based on machine learning based data analysis
 \end{itemize}
-Taking the fact into consideration that it is an essential advantage to focus on a wearable solution independent of external infrastructure, the work of Li et al.\cite{Li2009} serves as an example cf.\cite{LorenaFall}. Their solution includes two wearable sensor nodes which are based on a BAN. These sensor nodes consist of an accelerometer and gyroscope and they are placed on the chest (Node A) and on the thigh (Node B, see Figure \ref{fig:LietAl-Architecture}). 
+Taking the fact into consideration that it is an essential advantage to focus on a wearable solution independent of external infrastructure, the work of Li et al.\cite{Li2009} serves as an example \cite{LorenaFall}. Their solution includes two wearable sensor nodes which are based on a BAN. These sensor nodes consist of an accelerometer and gyroscope and they are placed on the chest (Node A) and on the thigh (Node B, see Figure \ref{fig:LietAl-Architecture}). 
 \begin{figure}[!ht] 
 	\centering
 	\includegraphics[scale=0.14]{Images/BasePrototype.png}
@@ -644,7 +644,7 @@ The Figure \ref{fig:fallKozina} shows the mentioned phases. The prefall phase il
 
 To ensure reliable fall detection, the system must be able to detect various types of falls. For this reason, the development of the fall detection prototype is also based on the creation of a test protocol covering different types of falls. Li et al. \cite{Li2009} and Pannurat et al. \cite{Pannurat2014} are our references, as they not only represent possible solutions for fall detection, but also offer a versatile overview of possible fall scenarios.
 
-\subsection{Fall patterns based on Esper EPL cf.\cite{LorenaFall}}
+\subsection{Fall patterns based on Esper EPL \cite{LorenaFall}}
 \label{subsec:CEP}
 The EPL used is the Esper EPL \cite{Esper:2016}, which is a streaming-oriented language and uses the CEP engine to execute the queries. The main reasons for its usage are the following:
 \begin{itemize}
@@ -657,7 +657,7 @@ In comparison to SQL, which is based on tables, EPL works on the continuously in
 
 To define rules in CEP the incoming event should be characterized in detail to specify incoming data for the CEP-engine. After the event creation, rules, as well called event patterns, should be determined to categorize the incoming input in fall events or daily activities.
 \renewcommand{\lstlistingname}{Example}
-\begin{lstlisting}[basicstyle=\ttfamily\footnotesize,language=SQL,caption=Fall pattern based on Kozina et al. cf.\cite{LorenaFall,Kozina}.,label=CEPPattern, breaklines=true]
+\begin{lstlisting}[basicstyle=\ttfamily\footnotesize,language=SQL,caption=Fall pattern based on Kozina et al.\cite{LorenaFall,Kozina}.,label=CEPPattern, breaklines=true]
 //1. Definition of the event - incoming data for CEP
 *---------------------------------------------*
 create schema BodyEvent(PersonID integer,accelS1 double,accelS2 double,timestamp string)
@@ -676,10 +676,10 @@ The illustrated EPL query (see Example \ref{CEPPattern}) is based on the physica
 \end{itemize}
 Referring to the selected properties this example checks, if the initial acceleration of node 1 (a1.accelS1) is $<= 9.81$ m/$s^2$ which indicates that the person is in a stationary position. Subsequently, it will be checked if the difference of the successive acceleration (a2.accelS1) and the first acceleration (a1.accelS1) within 1 second is $>= 9.81$ m/$s^2$. If this condition is fulfilled, it is an indication that the person has suffered an impact. Adding the OR disjunction the second sensor node can be integrated and the statement is able to detect a fall in case one of the node's data matches the Esper EPL query and the values of the acceleration correspond to the same person.
 
-\subsection{IoT test event generator cf.\cite{LorenaFall}}
+\subsection{IoT test event generator \cite{LorenaFall}}
 \label{iotteg}
 
-IoT-TEG~\cite{Gutierrez2017,TesisGutierrez2017} is a Java-based tool which takes an event 
+IoT-TEG~\cite{LorenaFall,Gutierrez2017,TesisGutierrez2017} is a Java-based tool which takes an event 
 type definition file and a desired output format JSON, CSV and XML, the most common across IoT platforms. IoT-TEG is made up of a \emph{validator} and an \emph{event generator} 
 (Figure~\ref{fig:IoT-EGArquitecture}). The validator ensures the definition follows the rules set 
 by IoT-TEG. The generator takes the definition and generates the indicated number of events according to it.
@@ -687,7 +687,7 @@ by IoT-TEG. The generator takes the definition and generates the indicated numbe
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[scale=0.4175]{Images/IoT-EGArchitecture.eps}
-	\caption[IoT-TEG Architecture]{IoT-TEG Architecture~ cf.\cite{LorenaFall}, \cite{TesisGutierrez2017,Gutierrez2017}.}
+	\caption[IoT-TEG Architecture]{IoT-TEG Architecture~ \cite{LorenaFall}, \cite{TesisGutierrez2017,Gutierrez2017}.}
 	\label{fig:IoT-EGArquitecture}
 \end{figure}
 Previous studies suggested there were no differences in testing effectiveness between using events
@@ -700,7 +700,7 @@ simulate many types of events occurring in any type of applications, it can do d
 and it can solve the main challenges developers face when they test event-processing programs: lack of data for testing, needing specific values for the events, and needing the source to generate the events.
 For the sake of clarity, Example~\ref{eventTypeDef} shows an event type
 definition.
-\begin{lstlisting}[basicstyle=\ttfamily\footnotesize,language=XML,caption=Event type definition example cf.\cite{LorenaFall}.,label=eventTypeDef, breaklines=true]
+\begin{lstlisting}[basicstyle=\ttfamily\footnotesize,language=XML,caption=Event type definition example \cite{LorenaFall}.,label=eventTypeDef, breaklines=true]
 <?xml version="1.0" encoding="UTF-8"?>
 <event_type name="TemperatureEvent">
 <block name="feeds" repeat="150">
@@ -736,7 +736,7 @@ generates events depending on the logical and relational operations.
 
 \subsection{Architecture}
 \label{subsec:Architecture}	
- A first prototype was described in \cite{LaBlunda.2016, LaBlunda.2016b}, cf.\cite{LorenaFall}. This paper presents an improved version of the prototype in \cite{LaBlunda.2016, LaBlunda.2016b}, cf.\cite{LorenaFall}, which includes essential developments that contribute to reliable operation of the system. Additionally, the improved hardware design meets the requirement for patient compliance. A more user friendly design facilitates the freedom of movement for the user. As a safety critical system for medical purposes, a redundant hardware design protects the system against a total system failure which would have severe consequences in case of fall events. Referring to J{\"a}ms{\"a} et al. \cite{jamsa2014fall} the best approach is to position the accelerometer near to the waist. Taking into consideration these aspects a wearable belt solution was developed which is based on a four sensor nodes BAN (see Figure \ref{fig:BanBelt}). The four sensor nodes (S1 - S4) positioned on the belt are acting as peripherals and are continuously acquiring acceleration data which is sent via Bluetooth Low Energy (BLE) to the smartphone (central device). 
+ A first prototype was described in \cite{LaBlunda.2016, LaBlunda.2016b}, \cite{LorenaFall}. This paper presents an improved version of the prototype in \cite{LaBlunda.2016, LaBlunda.2016b},\cite{LorenaFall}, which includes essential developments that contribute to reliable operation of the system. Additionally, the improved hardware design meets the requirement for patient compliance. A more user friendly design facilitates the freedom of movement for the user. As a safety critical system for medical purposes, a redundant hardware design protects the system against a total system failure which would have severe consequences in case of fall events. Referring to J{\"a}ms{\"a} et al. \cite{jamsa2014fall} the best approach is to position the accelerometer near to the waist. Taking into consideration these aspects a wearable belt solution was developed which is based on a four sensor nodes BAN (see Figure \ref{fig:BanBelt}). The four sensor nodes (S1 - S4) positioned on the belt are acting as peripherals and are continuously acquiring acceleration data which is sent via Bluetooth Low Energy (BLE) to the smartphone (central device). 
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[scale=0.27]{Images/belt.eps}
@@ -776,7 +776,7 @@ possible realism while also trying to avoid risks. They have been doing FAW fall
 of 2 minutes. The analyzed data and videos can be found in~\cite{FallRepo}.
 In this analysis the following steps have been done:
 
-\subsubsection{Study of the values cf.\cite{LorenaFall}} Given that the sensor (S1) is the one that suffers the 
+\subsubsection{Study of the values \cite{LorenaFall}} Given that the sensor (S1) is the one that suffers the 
 impact, its acceleration values are the first to be analyzed. The goal is to study 
 the acceleration behavior during a fall in order to generate test events, so the acceleration 
 values are normalized ($N(m/s^2)$). After the normalization the impact, peaks, 
@@ -812,7 +812,7 @@ Figure~\ref{fig:FAWcomparison} confronts the normalized acceleration behavior du
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[scale=0.21]{Images/TwoFallsComparative.eps}
-	\caption[Acceleration during FAW fall]{Acceleration comparison during FAW fall cf.\cite{LorenaFall}.}
+	\caption[Acceleration during FAW fall]{Acceleration comparison during FAW fall \cite{LorenaFall}.}
 	\label{fig:FAWcomparison}
 \end{figure}
 
@@ -831,7 +831,7 @@ We have decided to define the acceleration behavior with normalized values; so t
 The same analysis process has been done to the rest of sensors, and the acceleration follows the same pattern.
 
 \subsubsection{To define the fall event} Once the fall acceleration behavior has been observed, the next step is to define the 
-fall event in order to generate test events with IoT-TEG~ cf.\cite{LorenaFall}, \cite{TesisGutierrez2017,Gutierrez2017}. As it was explained in 
+fall event in order to generate test events with IoT-TEG\cite{LorenaFall}, \cite{TesisGutierrez2017,Gutierrez2017}. As it was explained in 
 Subsection~\ref{iotteg}, the event type attributes have
 to be defined using the \texttt{<field>} element. The fall event contains one attribute, the acceleration, which is float, 
 \texttt{type=``Float''}, and its values are not quoted, \texttt{quotes=``false''}. A new parameter in IoT-TEG has been defined as a 
@@ -840,7 +840,7 @@ the \texttt{custom\_behavior} property in the \texttt{<field>} element to define
 in this study, the acceleration. In the \texttt{custom\_behavior} property the path to the file that includes the behavior of the 
 event attribute has to be written. The Example~\ref{FallEvent} shows the complete fall event definition (FallEventType).
 
-\begin{lstlisting}[basicstyle=\ttfamily\footnotesize,language=XML,caption={Fall event type definition, cf.\cite{LorenaFall}.},label=FallEvent, breaklines=true]
+\begin{lstlisting}[basicstyle=\ttfamily\footnotesize,language=XML,caption={Fall event type definition \cite{LorenaFall}.},label=FallEvent, breaklines=true]
 <?xml version="1.0" encoding="UTF-8"?>
 <event name="FallEventType">
 <block name="feeds" repeat="100">
@@ -866,7 +866,7 @@ for the second rule, 1 event for the third rule, 5 events for the fourth rule, 1
 
 To define the rules, \texttt{min}, \texttt{max} and \texttt{value} properties can be used as well as the arithmetic operations and the references to another variables. Moreover, the \texttt{sequence} property can be used to obtain values lower or higher than the one generated previously: \texttt{inc}, to increase the value, or \texttt{dec}, to decrease the value. 
 
-\begin{lstlisting}[basicstyle=\ttfamily\footnotesize,language=XML,caption={Rules to define a FAW fall, cf.\cite{LorenaFall}.},label=FAWFallRules, breaklines=true]
+\begin{lstlisting}[basicstyle=\ttfamily\footnotesize,language=XML,caption={Rules to define a FAW fall \cite{LorenaFall}.},label=FAWFallRules, breaklines=true]
 <?xml version="1.0" encoding="UTF-8"?>
 <custom_conditions simulations="5">
 <variables>
@@ -901,7 +901,7 @@ It is needed to highlight that to obtain these rules to define the behavior of t
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[scale=0.22]{Images/IoTTEGFAWGeneratedEvents.eps}
-	\caption[IoT-TEG generated FAW falls]{IoT-TEG generated FAW falls cf.\cite{LorenaFall}.}
+	\caption[IoT-TEG generated FAW falls]{IoT-TEG generated FAW falls \cite{LorenaFall}.}
 	\label{fig:IoTTEGFAWGeneratedEvents}
 \end{figure}
 
@@ -1051,7 +1051,7 @@ This proposed portable fall detection system aims to provide rapid and efficient
 
 The test measurements performed with the test subjects resulted positively regarding the detection of fall events and the acceptance of wearing such a system. Incorporating the ECG sensor proved the effectiveness of Gjoreski et al's concept \cite{Gjoreski2014} combining physical and medical sensor information (acceleration values \& ECG) to ensure more accurate detection of falls and, if necessary, fall prediction. 
 
-Using the IoT-TEG tool \cite{Gutierrez2017,TesisGutierrez2017} facilitates the generation of events to recognize falls which are based on \cite{Kozina}. We have the ability to assign behavior rules to as many event attributes as the event type contains, and the event attribute values follow the specified behavior. IoT-TEG \cite{Gutierrez2017,TesisGutierrez2017} has the ability to adapt the behavior of the analyzed event attribute, because it was designed to generate events of any event type to test systems which manage events. In the further development process it is planned to use machine learning and complementary CEP in order to use certain ECG patterns in combination with the acceleration data. These should enhance a reliable detection of falls. Since the IoT-TEG tool \cite{Gutierrez2017,TesisGutierrez2017} is in constant development to ensure an accurate generation of events, further functionalities will be integrated in the future to meet all test requirements.
+Using the IoT-TEG tool \cite{LorenaFall,Gutierrez2017,TesisGutierrez2017} facilitates the generation of events to recognize falls which are based on \cite{Kozina}. We have the ability to assign behavior rules to as many event attributes as the event type contains, and the event attribute values follow the specified behavior. IoT-TEG has the ability to adapt the behavior of the analyzed event attribute, because it was designed to generate events of any event type to test systems which manage events. In the further development process it is planned to use machine learning and complementary CEP in order to use certain ECG patterns in combination with the acceleration data. These should enhance a reliable detection of falls. Since the IoT-TEG tool is in constant development to ensure an accurate generation of events, further functionalities will be integrated in the future to meet all test requirements.
 
 However, first the synchronization problem of the BAN must be solved, which can compromise the system's functionality. A new hardware platform will be used, which contains a real time operating system, which facilitates the synchronization of different tasks in a wireless sensor network. In addition, the new microcontroller should also meet other requirements of patient compliance.
 
